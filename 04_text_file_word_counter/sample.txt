@@ -1,0 +1,23 @@
+# Sample Text for Word Counter Testing
+
+## Section 1: Standard Paragraphs
+This is a standard paragraph. It contains simple sentences designed to test basic word counting functionality. A good word counter should easily recognize these words.
+
+Another short paragraph lives here. It helps test how your script handles multiple line breaks and paragraph separations.
+
+## Section 2: Punctuation and Special Cases
+Can your counter handle punctuation? This sentence has a comma, a semi-colon; a colon: and a dash - or hyphen-negated word.
+What about question marks? Or exclamation points!
+How does it handle ellipses... or words inside (parentheses), "quotes", and 'single quotes'?
+
+## Section 3: Edge Cases and Formatting
+   This line has leading spaces.
+This line has trailing spaces.
+This   line   has   multiple   spaces   between   words.
+
+Numbers: 12345 should it count as a word? What about $50.00 or 50%?
+Websites and Emails: test@example.com or https://www.python.org.
+Contractions: don't, it's, shouldn't, and user's choice.
+
+## Section 4: Repeated Words (For Frequency Testing)
+apple banana apple orange banana apple grape apple
